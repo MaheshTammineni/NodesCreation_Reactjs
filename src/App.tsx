@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useState } from 'react';
+import { useState } from 'react';
 import GraphCanvas from './components/GraphCanvas';
 import Sidebar from './components/Sidebar';
 

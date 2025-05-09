@@ -11,6 +11,7 @@ const GraphCanvas: React.FC<GraphCanvasProps> = ({ onNodeSelect }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [graph, setGraph] = useState<Graph | null>(null);
 
+  console.log(graph);
   useEffect(() => {
     if (!containerRef.current) return;
 
@@ -27,7 +28,7 @@ const GraphCanvas: React.FC<GraphCanvasProps> = ({ onNodeSelect }) => {
         allowBlank: false,
         snap: true,
         highlight: true,
-        validateConnection({ sourceMagnet, targetMagnet }) {
+        validateConnection({ targetMagnet }) {
           return !!targetMagnet; // Allow connection only if there’s a magnet
         },
       },
