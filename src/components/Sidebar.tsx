@@ -90,7 +90,7 @@ const Sidebar: React.FC<SidebarProps> = ({ node }) => {
         </div>
         <div className="button-group">
           <button onClick={updateNode} className="btn btn-save">
-            Save changes
+            Save
           </button>
           <button onClick={duplicateNode} className="btn btn-duplicate">
             Duplicate

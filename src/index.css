@@ -68,7 +68,7 @@ button:focus-visible {
 }
 
 .canvas-container {
-  width: 66.66%;
+  width: 76.66%;
   padding: 1rem;
   overflow: auto;
 }
@@ -90,6 +90,7 @@ button:focus-visible {
   padding: 0.5rem 1rem;
   font-size: 0.875rem; 
   border: none;
+  height: 40px;
   border-radius: 0.25rem;
   cursor: pointer;
 }
